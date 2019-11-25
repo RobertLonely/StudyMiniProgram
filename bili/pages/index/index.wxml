@@ -1,0 +1,45 @@
+<view class="main">
+  <!-- 公共头部区域 -->
+  <head></head>
+  <!-- 导航条区域 -->
+  <view class="nav_wrap">
+    <scroll-view class="nav" scroll-x>
+      <view bindtap="getCur" data-index="{{index}}" class="nav_item {{index===curIndex?'active':''}}" wx:for="{{nav}}" wx:key="{{item.id}}">
+        {{item.name}}
+      </view>
+    </scroll-view>
+  </view>
+  <!-- 轮播图区域 -->
+  <view class="carousel">
+    <swiper indicator-dots indicator-active-color="white" autoplay circular interval="3000" duration="1000" easing-function="linear">
+      <swiper-item wx:for="{{carousel}}" wx:key="{{item.id}}">
+        <navigator hover-class="none">
+          <image src="{{item.data.image}}" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 视频列表 -->
+  <view class="watch_wrap">
+    <view class="wrap" wx:for="{{watch}}" wx:key="{{item.id}}">
+      <!-- 视频容器 -->
+      <view class="watch">
+        <navigator url="../watch/watch?video={{item.videouri}}" hover-class="none">
+          <image class="img" src="{{item.bimageuri}}" mode="aspectFill"></image>
+        </navigator>
+        <!-- 发表用户 -->
+        <view class="user_wrap">
+          <view class="user">
+            <image class="user_img" src="{{item.profile_image}}">{{item.name}}</image>
+          </view>
+          <view>
+            <text>❤</text>
+            {{item.love}}
+          </view>
+        </view>
+      </view>
+      <!-- 标题部分 -->
+      <text class="info">[标题]:{{item.text}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+.main{
+  display: flex;
+  align-items:center;
+  width: 100%;
+  padding:10rpx;  
+}
+.logo {
+  flex: 5;
+}
+.logo image{
+  width: 150rpx;
+}
+.search{
+  flex: 1;
+}
+.search image{
+  width: 60rpx;
+}
+.user{
+  flex: 1;
+}
+.user image{
+  width: 60rpx;
+}
+.app{
+  width: 150rpx;
+  padding: 5rpx;
+  flex: 2;
+  background-color: #ffc5ca;
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.app navigator{
+  color: #fff;
+
+}

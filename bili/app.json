@@ -1,0 +1,26 @@
+{
+  "pages": ["pages/index/index", "pages/login/login", "pages/watch/watch"],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF8EB3",
+    "navigationBarTitleText": "B i L i",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "登入"
+      }
+    ],
+    "color": "#fff",
+    "backgroundColor": "#FF8EB3",
+    "borderStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

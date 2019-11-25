@@ -1,0 +1,24 @@
+<view class="main">
+  <!-- logo -->
+  <view class="logo">
+    <navigator hover-class="none">
+      <image src="../../icons/logo2.png" mode="widthFix"></image>
+    </navigator>
+  </view>
+  <!-- search -->
+  <view class="search">
+    <navigator hover-class="none">
+      <image src="../../icons/search.png" mode="widthFix"></image>
+    </navigator>
+  </view>
+  <!-- user -->
+  <view class="user">
+    <navigator hover-class="none">
+      <image src="../../icons/user.png" mode="widthFix"></image>
+    </navigator>
+  </view>
+  <!-- app -->
+  <view class="app">
+    <navigator hover-class="none">下载App</navigator>
+  </view>
+</view>

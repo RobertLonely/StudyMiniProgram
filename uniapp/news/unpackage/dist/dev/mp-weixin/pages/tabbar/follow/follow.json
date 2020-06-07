@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "用户关注",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#ff5722",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "card-view": "/components/card-view/card-view",
+    "card": "/components/card/card",
+    "author-list": "/components/author-list/author-list"
+  }
+}

@@ -1,0 +1,29 @@
+App({
+
+  /**
+   * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
+   */
+  onLaunch: function () {
+    console.log("App----------onLaunch")
+    
+  },
+
+  /**
+   * 当小程序启动，或从后台进入前台显示，会触发 onShow
+   */
+  onShow: function (options) {
+    console.log("App----------onShow")
+    
+  },
+
+  /**
+   * 当小程序从前台进入后台，会触发 onHide
+   */
+  onHide: function () {
+    console.log("App----------onHide")
+    
+    
+  },
+  // 全局属性,userInfo，用来存储用户信息
+  userInfo:null
+})

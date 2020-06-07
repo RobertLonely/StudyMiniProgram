@@ -1,0 +1,13 @@
+/* src/pages/login/login.wxss */
+.user,.password{
+  border: none;
+  text-align: left;
+}
+input{
+  border:1px solid pink
+}
+button{
+  width: 200px;
+  height:40px;
+  background-color: pink;
+}

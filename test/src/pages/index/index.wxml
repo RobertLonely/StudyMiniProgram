@@ -1,0 +1,8 @@
+<!--src/pages/index/index.wxml-->
+<view class="head">文章列表</view>
+<view wx:for="{{arr}}" wx:key="index" >
+<navigator url="../detail/detail?id={{item}}">{{index+1}} - {{item}}</navigator>
+</view>
+<!-- <view wx:for="{{arr}}" wx:key="index" bindtap="clickMe">{{index+1}} - {{item}}</view> -->
+
+

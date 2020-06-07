@@ -1,0 +1,6 @@
+/* src/pages/index/index.wxss */
+view{
+  margin: 10px;
+  text-align: center;
+  border: 1px solid red;
+  }

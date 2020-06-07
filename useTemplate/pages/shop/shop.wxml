@@ -1,0 +1,3 @@
+<view class="content">
+<text>宇宙无敌大帅哥：{{shuai}}</text>
+</view>

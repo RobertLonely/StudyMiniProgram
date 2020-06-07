@@ -1,0 +1,2 @@
+<!--src/pages/detail/detail.wxml-->
+<view>文章{{id}}</view>

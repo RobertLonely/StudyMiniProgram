@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "card-view": "/components/card-view/card-view",
+    "card": "/components/card/card"
+  }
+}

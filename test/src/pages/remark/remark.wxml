@@ -1,0 +1,56 @@
+<!--src/pages/remark/remark.wxml-->
+<view class="container">
+<!-- 轮播图区域 -->
+<view class="slideshow">
+  <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#ffb74d"
+        autoplay="true" interval="5000" duration="500" circular="true" >
+    <block wx:for="{{slideshow}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+   </swiper>
+  </view>
+<!-- 文章区域 -->
+<view class="article">
+ <!-- 标题栏 -->
+ <view class="head">
+  <text>美食推荐</text>
+  <text>更多></text>
+ </view>
+ <!-- 文章列表 -->
+ <view class="lists" >
+  <!-- 文章 -->
+  <view class="list" wx:for="{{lists}}" wx:key="index">
+   <!-- 文章封面 -->
+   <image src="{{item}}"></image>
+   <!-- 文章副标题 -->
+   <view>都是一样的...</view>
+  </view>
+ </view>
+ </view>
+<!-- 其它相关 -->
+<view class="other">
+ <!-- 标题栏 -->
+ <view class="head">
+  <text>相关推荐</text>
+  <text>更多></text>
+ </view>
+ <!-- 文章区域 -->
+ <view class="like" wx:for="{{likes}}" wx:key="index">
+  <!-- 文章封面 -->
+  <view class="img">
+   <image src="{{item}}"></image>
+  </view>
+  <!-- 用户头像 -->
+  <view class="avtar">no</view>
+  <!-- 介绍 -->
+ <view class="introduce">
+   <!-- 标题 -->
+   <view>想不出来</view>
+   <!-- 介绍 -->
+   <view>没什么好介绍的，就这样吧，行不行，什么不行，我告诉你不行也得行</view>
+  </view>
+ </view>
+</view>
+</view>

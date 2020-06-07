@@ -1,0 +1,12 @@
+<!--src/pages/login/login.wxml-->
+<view>
+<view class="user">
+<label>用户：</label>
+<input bindinput="userInput" type="text"></input>
+</view>
+<view class="password">
+<label>密码：</label>
+<input bindinput="psdInput" type="password"></input>
+</view>
+<button bindtap="login">登录</button>
+</view>

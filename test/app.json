@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "src/pages/remark/remark",
+    "src/pages/index/index",
+    "src/pages/detail/detail",
+    "src/pages/login/login",
+    "src/pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4fc3f7",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "#ff6f00",
+    "backgroundTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "src/pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "src/pages/user/user",
+        "text": "用户中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

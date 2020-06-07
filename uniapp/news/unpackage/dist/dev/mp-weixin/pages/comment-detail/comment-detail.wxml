@@ -1,0 +1,1 @@
+<view><block wx:for="{{commentList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="comment-view"><comment vue-id="{{'199e0ae0-1-'+index}}" comment="{{item}}" bind:__l="__l"></comment></view></block><uni-load-more vue-id="199e0ae0-2" status="{{loading}}" bind:__l="__l"></uni-load-more></view>

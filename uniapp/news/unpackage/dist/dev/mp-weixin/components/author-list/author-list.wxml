@@ -1,0 +1,1 @@
+<view class="info-box"><view class="info"><view class="main-info"><view class="img"><image src="{{item.avatar}}" mode></image></view><view class="detail-info"><text>{{item.author_name}}</text><text>{{item.professional}}</text></view></view><view class="minor-info"><text>{{"发帖："+item.follow_count}}</text><text>{{"粉丝："+item.fans_count}}</text></view></view></view>

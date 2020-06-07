@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5e35b1",
+    "navigationBarTitleText": "我的首页",
+    "navigationBarTextStyle": "white",
+    "pageOrientation":"auto",
+    "backgroundColor":"#616161",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"./images/index.png",
+      "selectedIconPath":"./images/index.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath":"./images/log.png",
+      "selectedIconPath":"./images/log.png"
+    },{
+      "pagePath": "pages/shop/shop",
+      "text": "购物"
+    }],
+    "color":"#ffe082",
+    "selectedColor":"#000000",
+    "backgroundColor":"#9575cd",
+    "borderStyle":"black"
+  }
+}

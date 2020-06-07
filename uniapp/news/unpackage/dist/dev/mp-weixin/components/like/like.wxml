@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['collect',['$event']]]]]}}" catchtap="__e"><uni-icons vue-id="006c20a2-1" type="{{flag?'heart-filled':'heart'}}" color="#ff5722" size="26" bind:__l="__l"></uni-icons></view>

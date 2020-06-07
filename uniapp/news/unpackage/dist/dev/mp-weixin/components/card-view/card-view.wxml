@@ -1,0 +1,1 @@
+<view class="card-view"><scroll-view class="scroll-box" scroll-y="{{true}}" data-event-opts="{{[['scrolltolower',[['loadMore',['$event']]]]]}}" bindscrolltolower="__e"><view class="item-box"><slot></slot></view></scroll-view></view>
